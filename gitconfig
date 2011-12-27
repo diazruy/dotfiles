@@ -3,3 +3,8 @@
 	email = diazruy@gmail.com
 [color]
 	ui = true
+[alias]
+	st = status
+	com = commit
+	br = branch
+	co = checkout

@@ -1,9 +1,6 @@
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+defscrollback 2000
 
 #Default screens
 screen -t vim 1
-screen -t console 2
-screen -t server 3
-screen -t "spork rspec" 4
-screen -t "spork cuke" 5
