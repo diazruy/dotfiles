@@ -4,7 +4,11 @@
 [color]
 	ui = true
 [alias]
-	st = status
+	st = status --short
 	com = commit
 	br = branch
 	co = checkout
+  	l = log --pretty=oneline --abbrev-commit --graph --decorate
+  	staged = diff --staged
+  	unstaged = diff
+  	unstage = reset HEAD
