@@ -1,10 +1,32 @@
 [user]
-	name = Ruy Diaz
-	email = diazruy@gmail.com
+  name = Ruy Diaz
+  email = diazruy@gmail.com
+[github]
+  user = diazruy
 [color]
-	ui = true
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+[branch]
+  autosetuprebase = always
 [alias]
-	st = status
-	com = commit
-	br = branch
-	co = checkout
+  st = status --short
+  com = commit
+  br = branch
+  co = checkout
+  l = log --pretty=oneline --abbrev-commit --graph --decorate
+  staged = diff --staged
+  unstaged = diff
+  unstage = reset HEAD
+[merge]
+  tool = p4merge
+  keepBackup = false
+  prompt = false
+[mergetool "p4merge"]
+  cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  keepTemporaries = false
+  trustExitCode = false
+  keepBackup = false
+[mergetool]
+  keepBackup = false
