@@ -15,10 +15,10 @@
   com = commit
   br = branch
   co = checkout
-    l = log --pretty=oneline --abbrev-commit --graph --decorate
-    staged = diff --staged
-    unstaged = diff
-    unstage = reset HEAD
+  l = log --pretty=oneline --abbrev-commit --graph --decorate
+  staged = diff --staged
+  unstaged = diff
+  unstage = reset HEAD
 [merge]
   tool = p4merge
   keepBackup = false
