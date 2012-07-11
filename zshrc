@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="superjarin"
+ZSH_THEME="simple"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -36,3 +36,5 @@ source ~/.bash_profile
 
 # Customize to your needs...
 export PATH=/home/ruy/.rvm/gems/ruby-1.9.3-p0/bin:/home/ruy/.rvm/gems/ruby-1.9.3-p0@global/bin:/home/ruy/.rvm/rubies/ruby-1.9.3-p0/bin:/home/ruy/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
