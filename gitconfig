@@ -15,6 +15,7 @@
   com = commit
   br = branch
   co = checkout
+  ci = commit
   l = log --pretty=oneline --abbrev-commit --graph --decorate
   staged = diff --staged
   unstaged = diff
