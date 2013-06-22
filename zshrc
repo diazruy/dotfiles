@@ -41,3 +41,6 @@ source ~/.profile
 source /usr/share/autojump/autojump.sh
 # Use vim style navigation
 bindkey -v
+export PATH=/home/ruy/.rvm/gems/ruby-1.9.3-p0/bin:/home/ruy/.rvm/gems/ruby-1.9.3-p0@global/bin:/home/ruy/.rvm/rubies/ruby-1.9.3-p0/bin:/home/ruy/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
