@@ -16,4 +16,13 @@
   unstage = reset HEAD
   staged = diff --staged
 
-
+[merge]
+  keepBackup = false
+  tool = p4merge
+[mergetool "p4merge"]
+  cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  keepTemporaries = false
+  trustExitCode = false
+  keepBackup = false
+[web]
+  browser = google-chrome
