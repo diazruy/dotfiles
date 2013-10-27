@@ -42,6 +42,15 @@ source ~/.profile
 source /usr/share/autojump/autojump.sh
 alias b='bundle exec'
 alias rake='noglob rake'
+alias zeus='nocorrect zeus'
+alias fbe='foreman run bundle exec'
+alias pushboth='git push ci master && git push qa master'
+alias ci='nocorrect ci'
+alias qa='nocorrect qa'
+alias staging='nocorrect staging'
+alias production='nocorrect production'
+alias beta='nocorrect beta'
+alias alpha='nocorrect alpha'
 
 export PATH=/home/ruy/.rvm/gems/ruby-1.9.3-p0/bin:/home/ruy/.rvm/gems/ruby-1.9.3-p0@global/bin:/home/ruy/.rvm/rubies/ruby-1.9.3-p0/bin:/home/ruy/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 export PATH=$PATH:./bin
