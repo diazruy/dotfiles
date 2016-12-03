@@ -25,7 +25,7 @@
   tool = p4merge
   prompt = false
 [mergetool "p4merge"]
-  cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  cmd = /home/ruy/p4v/bin/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
   keepTemporaries = false
   trustExitCode = false
   keepBackup = false
