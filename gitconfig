@@ -31,3 +31,5 @@
   keepBackup = false
 [web]
   browser = google-chrome
+[cola]
+	spellcheck = false
