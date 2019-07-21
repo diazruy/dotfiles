@@ -16,7 +16,7 @@
   br = branch
   co = checkout
   ci = commit
-  l = log --pretty=oneline --abbrev-commit --graph --decorate
+  l = log --oneline --graph --decorate
   staged = diff --staged
   unstaged = diff
   unstage = reset HEAD
@@ -32,4 +32,6 @@
 [web]
   browser = google-chrome
 [cola]
-	spellcheck = false
+  spellcheck = false
+[mergetool]
+	keepBackup = false
