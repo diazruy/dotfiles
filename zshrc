@@ -53,6 +53,7 @@ alias beta='nocorrect beta'
 alias alpha='nocorrect alpha'
 
 export PATH=/home/ruy/.rvm/gems/ruby-1.9.3-p0/bin:/home/ruy/.rvm/gems/ruby-1.9.3-p0@global/bin:/home/ruy/.rvm/rubies/ruby-1.9.3-p0/bin:/home/ruy/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-export PATH=$PATH:./bin
+export PATH=$PATH:./bin:/snap/bin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+cd .
