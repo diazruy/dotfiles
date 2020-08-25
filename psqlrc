@@ -1,0 +1,4 @@
+-- Enable query timing
+\timing on
+-- Display NULLs
+\pset null '(null)'
